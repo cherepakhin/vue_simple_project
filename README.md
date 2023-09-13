@@ -57,6 +57,8 @@ $ npm run dev
 /usr/local/bin/npm run dev
 ````
 
+В терминале VS Code появляется ошибка "node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.28' not found (required by node)"
+
 [http://localhost:5173/](http://localhost:5173/)
 
 ![Результат](doc/start_screen.png)
