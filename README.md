@@ -47,6 +47,11 @@ $ nvm --version
 $ npm run dev
 ````
 
+[http://localhost:5173/](http://localhost:5173/)
+
+![Результат](doc/start_screen.png)
+
+
 Ссылки:
 
 [https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)
