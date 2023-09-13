@@ -27,3 +27,18 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Мой init
+
+wget https://nodejs.org/dist/v18.14.2/node-v18.14.2-linux-x64.tar.xz
+
+vasi@vasi-note:/usr/local/bin$ node -v
+v16.15.1
+vasi@vasi-note:/usr/local/bin$ npm -v
+8.11.0
+$ nvm --version
+0.32.1
+
+Работает:
+/home/vasi/temp/vue_example/vue-project
+vasi-note:~/temp/vue_example/pr1$ npm run dev
