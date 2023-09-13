@@ -51,16 +51,11 @@ $ npm run dev
 
 ![Результат](doc/start_screen.png)
 
-
 Ссылки:
 
-[https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)
-
+[https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)<br/>
 [https://router.vuejs.org/](https://router.vuejs.org/)
-[https://vuejs.org/guide/quick-start.html#creating-a-vue-application](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
-
-[https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html](https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html)
-
-[https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app (okta!)](https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app)
-
+[https://vuejs.org/guide/quick-start.html#creating-a-vue-application](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)<br/>
+[https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html](https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html)<br/>
+[https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app (okta!)](https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app)<br/>
 [https://learn.microsoft.com/ru-ru/windows/dev-environment/javascript/vue-beginners-tutorial](https://learn.microsoft.com/ru-ru/windows/dev-environment/javascript/vue-beginners-tutorial)
