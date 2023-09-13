@@ -31,6 +31,10 @@ npm run build
 ### Мой init
 
 ````shell
+# Эта версия работает на моей версии linux без приколов
+# $ uname -a
+# Linux vasi-note 5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023 
+# x86_64 x86_64 x86_64 GNU/Linux
 wget https://nodejs.org/dist/v18.14.2/node-v18.14.2-linux-x64.tar.xz
 
 note:/usr/local/bin$ node -v
