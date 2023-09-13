@@ -1,6 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import FeaturesVue from './components/FeaturesVue.vue'
+import ItemsVue from './components/Items.vue'
+
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import FeaturesVue from './components/FeaturesVue.vue'
 
   <main>
     <FeaturesVue />
+    <ItemsVue />
   </main>
 </template>
 
