@@ -52,7 +52,6 @@ $ npm run dev
 ![Результат](doc/start_screen.png)
 
 Ссылки:
-
 [https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)<br/>
 [https://router.vuejs.org/](https://router.vuejs.org/)
 [https://vuejs.org/guide/quick-start.html#creating-a-vue-application](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)<br/>
