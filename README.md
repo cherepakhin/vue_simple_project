@@ -51,6 +51,12 @@ $ nvm --version
 $ npm run dev
 ````
 
+или так:
+
+````shell
+/usr/local/bin/npm run dev
+````
+
 [http://localhost:5173/](http://localhost:5173/)
 
 ![Результат](doc/start_screen.png)
