@@ -92,6 +92,8 @@ _(подсмотреть приемы тестирования в проекте
 vue_simple_project$ yarn test
 ````
 
+добавить mocha!!!
+
 ### Ссылки:
 
 [https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)<br/>
