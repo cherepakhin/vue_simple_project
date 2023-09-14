@@ -17,6 +17,7 @@ import ItemsVue from './components/Items.vue'
   <main>
     <FeaturesVue />
     <ItemsVue />
+    <!-- <ItemsVue /> -->
   </main>
 </template>
 

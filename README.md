@@ -71,3 +71,16 @@ $ npm run dev
 [https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html](https://www.pierrefay.com/vuejs-training/helloworld-tutorial-vuejs.html)<br/>
 [https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app (okta!)](https://morioh.com/a/f98df40e9c1a/using-kotlin-spring-boot-and-vuejs-to-make-a-crud-app)<br/>
 [https://learn.microsoft.com/ru-ru/windows/dev-environment/javascript/vue-beginners-tutorial](https://learn.microsoft.com/ru-ru/windows/dev-environment/javascript/vue-beginners-tutorial)
+
+### Тезисы
+
+[Реактивные ссылки](https://v3.ru.vuejs.org/ru/api/refs-api.html#реактивные-ref-ссылки)
+ref - Получает внутреннее значение и возвращает реактивный и мутируемый ref-объект. В этом ref-объекте есть только одно свойство .value, которое указывает на внутреннее значение.
+
+````js
+const count = ref(0)
+console.log(count.value) // 0
+
+count.value++ // обращение НЕ к count, а к value
+console.log(count.value) // 1
+````
