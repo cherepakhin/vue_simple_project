@@ -59,6 +59,12 @@ $ npm run dev
 
 В терминале VS Code появляется ошибка "node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.28' not found (required by node)"
 
+При установке библиотек (npm install), установку проводить от локального пользователя (**не root и не sudo**). Пример (установка cross-env):
+
+````shell
+vue_simple_project$ npm install cross-env
+````
+
 [http://localhost:5173/](http://localhost:5173/)
 
 ![Результат](doc/start_screen.png)
