@@ -1,0 +1,30 @@
+<template>
+  <div><h1>Tests</h1></div>
+  <!-- <div><u>Example cicle1</u> (Without 'ref' <i>products = [{id: 0, name: 'shirt'},)]</i>:</div> -->
+  <!-- <u>Example cicle (исх.список)</u> (WITH 'ref' <i>productsWithRef = ref([{id: 0, name: 'shirt'},...]))</i>: -->
+  <!-- <div v-for='(product, index) in productsWithRef' :key='product.id'> -->
+    <!--'index' никак не связан с текущим объектом. Это просто индекс цикла.-->
+    <!-- #index:{{ index + 1}}  id:{{product.id }}  name:{{ product.name }} -->
+  <!-- </div> -->
+  <div><u>0. productsWithRef</u>:<br/>
+    <!--вывод на экран 0-->
+    {{ productsWithRef }}
+  </div>
+  <!-- reverse ниже влияет на отображение выше в div v-for-->
+  <!-- <div><u>1. productsWithRef.reverse() 1 раз (влияет на отображение исх.списка)</u>:<br/> -->
+    <!--вывод на экран 1-->
+    <!-- {{ productsWithRef.reverse() }} -->
+  <!-- </div> -->
+  <!--[ { "id": 3, "name": "shoes3" }, { "id": 1, "name": "jacket" }, { "id": 0, "name": "shirt" } ]-->
+  <!--вывод на экран 2. -->
+  <!-- <div><u>2. productsWithRef.reverse() 2 раз (влияет на отображение исх.списка, но не влияет на вид "вывод на экран 1")</u>:<br/>
+    {{ productsWithRef.reverse() }}
+  </div> -->
+  <!--вывод на экран 3. -->
+  <!-- <div><u>3. productsWithRef.reverse() 2 раз (влияет на отображение исх.списка, но не влияет на вид "вывод на экран 1")</u>:<br/> -->
+  <!--[ { "id": 0, "name": "shirt" }, { "id": 1, "name": "jacket" }, { "id": 3, "name": "shoes3" } ]-->
+    <!-- <div>{{ products.reverse() }}</div> -->
+  <!-- </div> -->
+  <!--[ { "id": 0, "name": "shirt" }, { "id": 1, "name": "jacket" }, { "id": 3, "name": "shoes3" } ]-->
+  <!-- <div><u>products.reverse()</u>:<br/> {{ products.reverse() }}</div> -->
+</template>
