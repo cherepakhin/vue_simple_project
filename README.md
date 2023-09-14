@@ -74,6 +74,14 @@ vue_simple_project$ npm install cross-env
 
 ![Результат](doc/start_screen.png)
 
+### Тестирование
+
+Используется jest. Для установки выполнить:
+
+````shell
+vue_simple_project$ vue add unit-jest
+````
+
 ### Ссылки:
 
 [https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах](https://v3.vuex.vuejs.org/ru/guide/mutations.html#вызов-мутации-в-компонентах)<br/>

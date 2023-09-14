@@ -14,9 +14,13 @@ const productsWithRef = ref([
 </script>
 
 <template>
-  <div><h2>Tests</h2></div>
+  <div><h2>Tests:</h2></div>
   <div><h3><u>productsWithRef:</u></h3>
     <!--вывод на экран 0-->
-    {{ productsWithRef }}
+    {{ productsWithRef }}<br/>
+  </div>
+  <div><h3><u>products:</u></h3>
+    <!--вывод на экран 1-->
+    {{ products }}
   </div>
 </template>
