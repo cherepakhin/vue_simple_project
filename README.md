@@ -57,7 +57,7 @@ $ npm run dev
 /usr/local/bin/npm run dev
 ````
 
-В терминале VS Code появляется ошибка "node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.28' not found (required by node)"
+Если в терминале VS Code появляется ошибка "node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.28' not found (required by node)", то это запуск от **root**.
 
 При установке библиотек (npm install), установку проводить от локального пользователя (**не root и не sudo**). Пример (установка cross-env):
 
