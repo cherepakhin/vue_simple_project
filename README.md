@@ -76,7 +76,7 @@ vue_simple_project$ npm install cross-env
 
 ### Тестирование
 
-Используется jest. Для установки выполнить:
+Используется jest [https://cli.vuejs.org/ru/core-plugins/unit-jest.html](https://cli.vuejs.org/ru/core-plugins/unit-jest.html). Для установки выполнить:
 
 ````shell
 vue_simple_project$ vue add unit-jest
