@@ -13,20 +13,24 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+$ npm install
 ```
+
+**(не от root/sudo)**
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+$ npm run dev
 ```
+**(не от root/sudo)**
 
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+**(не от root/sudo)**
 
 ### Мой init
 
@@ -44,6 +48,7 @@ note:/usr/local/bin$ npm -v
 $ nvm --version
 0.32.1
 ````
+**(не от root/sudo)**
 
 Работает. **Запускать в консоли linux (не терминале VS Code) и не от root/sudo**:
 
