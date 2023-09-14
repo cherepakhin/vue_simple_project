@@ -76,10 +76,20 @@ vue_simple_project$ npm install cross-env
 
 ### Тестирование
 
-Используется jest [https://cli.vuejs.org/ru/core-plugins/unit-jest.html](https://cli.vuejs.org/ru/core-plugins/unit-jest.html). Для установки выполнить:
+Используется jest [https://cli.vuejs.org/ru/core-plugins/unit-jest.html](https://cli.vuejs.org/ru/core-plugins/unit-jest.html).
+
+Для установки выполнить:
 
 ````shell
+vue_simple_project$ yarn add @vue/test-utils --dev
 vue_simple_project$ vue add unit-jest
+````
+
+Для прогона тестов **запускать в консоли linux (не терминале VS Code) и не от root/sudo!!!**:
+_(подсмотреть приемы тестирования в проекте ~/prog/js/best-bs)_
+
+````shell
+vue_simple_project$ yarn test
 ````
 
 ### Ссылки:
